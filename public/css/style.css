@@ -3,14 +3,30 @@
 /* ****************** */
 
 .header {
+  height: 90vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)),
+    url('../images/hero-background.jpg');
+  background-size: cover;
+  background-position: top;
+}
+
+.header-box {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  background-color: #fdf2e9;
-
-  height: 9.6rem;
-  padding: 0 4.8rem;
+  padding: 3.2rem 4.8rem;
   position: relative;
+  align-items: center;
+}
+
+.title:link,
+.title:visited {
+  text-decoration: none;
+  color: white;
+  font-size: 3.2rem;
+}
+
+i .icon {
+  font-size: 3rem;
 }
 
 /* ****************** */
@@ -19,15 +35,22 @@
 .main-nav-list {
   list-style: none;
   display: flex;
-  gap: 2rem;
+  gap: 3rem;
 }
 
 .main-nav-link:link,
 .main-nav-link:visited {
   display: inline-block;
   text-decoration: none;
-  color: #333;
+  color: #fff;
   font-weight: 500;
-  font-size: 1.8rem;
+  font-size: 2rem;
   transition: all 0.3s;
+}
+
+/* ****************** */
+/*   SECTION HERO     */
+/* ****************** */
+
+.section-hero {
 }
