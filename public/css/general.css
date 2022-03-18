@@ -22,6 +22,38 @@ body {
   text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
 
+/* Header: button-box */
+.button-box {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.btn:link,
+.btn:visited {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1.5rem 4rem;
+  display: inline-block;
+  transition: all 0.4s;
+}
+
+.btn:hover {
+  transform: translateY(-0.5rem);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+  transform: translate(-1px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+.btn--white {
+  background-color: #fff;
+  color: #000;
+}
+
 /* *****************************/
 /* GENERAL REUSABLE COMPONENTS */
 /* *****************************/
