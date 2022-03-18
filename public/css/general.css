@@ -16,6 +16,12 @@ body {
   overflow-x: hidden;
 }
 
+.header-box,
+.main-nav-link,
+.heading-primary {
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
 /* *****************************/
 /* GENERAL REUSABLE COMPONENTS */
 /* *****************************/
