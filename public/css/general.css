@@ -23,7 +23,7 @@ body {
   max-width: 160rem;
   margin: 0 auto;
   padding: 0 3.2rem;
-  background-color: rgba(255, 0, 0, 0.025);
+  background-color: rgba(255, 0, 0, 0.01);
 }
 
 .grid {
@@ -57,6 +57,7 @@ body {
 
 .btn:hover {
   transform: translateY(-0.5rem);
+  background-color: #ade8f4;
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
 }
 
@@ -76,9 +77,9 @@ body {
   display: block;
   font-size: 2rem;
   font-weight: 500;
-  color: blue;
+  color: #888;
   text-transform: uppercase;
-  margin-bottom: 1.6rem;
+  margin-bottom: 1rem;
   letter-spacing: 0.75px;
 }
 
@@ -89,6 +90,6 @@ body {
 
 .header-secondary {
   font-size: 4.4rem;
-  margin-bottom: 9.6rem;
+  margin-bottom: 3.6rem;
   color: #333;
 }
