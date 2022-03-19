@@ -104,20 +104,41 @@ i .icon {
   padding: 4.8rem 0 3.2rem 0;
 }
 
-.adventure-text-box {
+.adventure-header-box {
   text-align: center;
   line-height: 1.5;
 }
 
 .adventure-body-box {
-  grid-template-columns: 1fr 1fr;
-  row-gap: 2rem;
+  grid-template-columns: 3fr 2fr;
+  column-gap: 2rem;
+  align-items: center;
 }
 
 .adventure-image-box {
-  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 1.6rem;
+  gap: 1.6rem;
+}
+
+.gallery-item {
+  overflow: hidden;
+}
+
+.gallery-item img {
+  display: block;
   width: 100%;
-  background-color: yellow;
+  transition: all 0.4s;
+}
+
+.gallery-item img:hover {
+  transform: scale(1.1);
+}
+
+.adventure-description-box p {
+  font-size: 2rem;
+  line-height: 1.6;
 }
 
 /***********************/
