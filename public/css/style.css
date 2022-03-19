@@ -44,12 +44,17 @@ i .icon {
   color: #fff;
   font-weight: 500;
   font-size: 2rem;
+  text-transform: uppercase;
   transition: all 0.3s;
 }
 
-.nav-cta {
+.main-nav-link.nav-cta {
   border-style: solid;
   padding: 0.5rem;
+}
+
+.main-nav-link:hover {
+  transform: translateY(-0.2rem);
 }
 
 /* Header-Text */
@@ -64,8 +69,6 @@ i .icon {
 .heading-primary {
   color: #fff;
   text-transform: uppercase;
-
-  backface-visibility: hidden;
   margin-bottom: 6rem;
 }
 
@@ -76,8 +79,8 @@ i .icon {
   letter-spacing: 3.5rem;
   margin-bottom: 1.6rem;
 
-  animation-name: moveInLeft;
-  animation-duration: 2s;
+  /* animation-name: moveInLeft;
+  animation-duration: 2s; */
 }
 
 .heading-primary--sub {
@@ -85,13 +88,36 @@ i .icon {
   font-size: 2.3rem;
   letter-spacing: 1.75rem;
 
-  animation-name: moveInRight;
-  animation-duration: 2s;
+  /* animation-name: moveInRight;
+  animation-duration: 2s; */
 }
 
-.button-animated {
-  animation: moveInBottom 0.5s ease-out 0.75s;
-  /* animation-fill-mode: backwards; */
+/* .button-animated {
+  animation-name: moveInBottom;
+  animation-duration: 2s;
+} */
+
+/***********************/
+/* ADVENTURE SECTION   */
+/***********************/
+.section-adventure {
+  padding: 4.8rem 0 3.2rem 0;
+}
+
+.adventure-text-box {
+  text-align: center;
+  line-height: 1.5;
+}
+
+.adventure-body-box {
+  grid-template-columns: 1fr 1fr;
+  row-gap: 2rem;
+}
+
+.adventure-image-box {
+  height: 100%;
+  width: 100%;
+  background-color: yellow;
 }
 
 /***********************/

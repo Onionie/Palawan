@@ -16,6 +16,22 @@ body {
   overflow-x: hidden;
 }
 
+/* *****************************/
+/* GENERAL REUSABLE COMPONENTS */
+/* *****************************/
+.container {
+  max-width: 160rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  background-color: rgba(255, 0, 0, 0.025);
+}
+
+.grid {
+  display: grid;
+  column-gap: 6.4rem;
+  row-gap: 9.6rem;
+}
+
 .header-box,
 .main-nav-link,
 .heading-primary {
@@ -31,7 +47,7 @@ body {
 
 .btn:link,
 .btn:visited {
-  font-size: 1.2rem;
+  font-size: 2rem;
   text-transform: uppercase;
   text-decoration: none;
   padding: 1.5rem 4rem;
@@ -54,17 +70,25 @@ body {
   color: #000;
 }
 
-/* *****************************/
-/* GENERAL REUSABLE COMPONENTS */
-/* *****************************/
-.container {
-  max-width: 120rem;
-  margin: 0 auto;
-  padding: 0 3.2rem;
+/* headings */
+
+.subheading {
+  display: block;
+  font-size: 2rem;
+  font-weight: 500;
+  color: blue;
+  text-transform: uppercase;
+  margin-bottom: 1.6rem;
+  letter-spacing: 0.75px;
 }
 
-.grid {
-  display: grid;
-  column-gap: 6.4rem;
-  row-gap: 9.6rem;
+.header-primary {
+  font-size: 2.6rem;
+  margin-bottom: 2.6rem;
+}
+
+.header-secondary {
+  font-size: 4.4rem;
+  margin-bottom: 9.6rem;
+  color: #333;
 }
