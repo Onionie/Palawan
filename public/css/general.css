@@ -55,6 +55,7 @@ body {
   text-decoration: none;
   padding: 1.5rem 4rem;
   display: inline-block;
+  border-radius: 0.4rem;
   transition: all 0.4s;
 }
 
