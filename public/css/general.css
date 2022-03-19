@@ -23,13 +23,16 @@ body {
   max-width: 160rem;
   margin: 0 auto;
   padding: 0 3.2rem;
-  background-color: rgba(255, 0, 0, 0.01);
 }
 
 .grid {
   display: grid;
   column-gap: 6.4rem;
   row-gap: 9.6rem;
+}
+
+.section-adventure {
+  padding: 6rem 0 7rem 0;
 }
 
 .header-box,
@@ -69,6 +72,13 @@ body {
 .btn--white {
   background-color: #fff;
   color: #000;
+}
+
+/* Header Boxes */
+.adventure-header-box,
+.hotels-header-box {
+  text-align: center;
+  line-height: 1.5;
 }
 
 /* headings */

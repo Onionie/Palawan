@@ -100,14 +100,6 @@ i .icon {
 /***********************/
 /* ADVENTURE SECTION   */
 /***********************/
-.section-adventure {
-  padding: 6rem 0 3.2rem 0;
-}
-
-.adventure-header-box {
-  text-align: center;
-  line-height: 1.5;
-}
 
 .adventure-body-box {
   grid-template-columns: 3fr 2fr;
@@ -165,7 +157,7 @@ i .icon {
   text-transform: uppercase;
   text-decoration: none;
 
-  /* offset-x | offset-y | blur-radius | spread-radius | color */
+  /* offset-x | offset-y | blur-radius | color */
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
   transition: all 0.4s;
 }
@@ -175,6 +167,13 @@ i .icon {
   background-color: #0096c7;
 }
 
+/***********************/
+/*   HOTELS SECTIONS   */
+/***********************/
+.section-hotels {
+  padding: 6rem 0 7rem 0;
+  background-image: linear-gradient(#48cae4, #023e8a);
+}
 /***********************/
 /* KEYFRAMES ANIMATION */
 /***********************/
