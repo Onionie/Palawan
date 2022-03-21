@@ -176,28 +176,19 @@ i .icon {
   padding: 6rem 0 7rem 0;
 
   background-image: linear-gradient(
-    #90e0ef,
-    #85dced,
-    #79d8eb,
-    #6cd4e9,
-    #5ed0e7,
-    #47c2e1,
-    #2db5db,
-    #00a7d4,
-    #008dc6,
-    #0073b5,
-    #0058a1,
-    #023e8a
+    #caf0f8,
+    #c0edf6,
+    #b6eaf5,
+    #abe7f3,
+    #a0e4f1,
+    #96e1ef,
+    #8cdeee,
+    #81dbec,
+    #75d7ea,
+    #67d3e8,
+    #00b4d8,
+    #00b4d8
   );
-}
-
-.section-hotels p {
-  font-size: 2rem;
-  line-height: 1.6;
-}
-
-.hotels-description-box p {
-  color: white;
 }
 
 .hotels-gallery {
@@ -210,7 +201,7 @@ i .icon {
 }
 
 .hotels-gallery {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.4rem;
 }
 
 .hotels-gallery img {
@@ -227,6 +218,24 @@ i .icon {
 .hotels-image-4,
 .hotels-image-5 {
   flex: 1 1 33%;
+}
+
+.hotels-image-6,
+.hotels-image-7,
+.hotels-image-8,
+.hotels-image-9,
+.hotels-image-10 {
+  flex: 1 1 20%;
+}
+
+.section-hotels p {
+  font-size: 2rem;
+  line-height: 1.6;
+}
+
+.hotels-description-box p {
+  color: #fff;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
 
 /***********************/
