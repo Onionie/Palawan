@@ -31,8 +31,9 @@ body {
   row-gap: 9.6rem;
 }
 
-.section-adventure {
-  padding: 6rem 0 7rem 0;
+.section-adventure,
+.section-hotels {
+  padding: 7rem 0 15rem 0;
 }
 
 .header-box,
