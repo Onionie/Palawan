@@ -195,6 +195,40 @@ i .icon {
   font-size: 2rem;
   line-height: 1.6;
 }
+
+.hotels-description-box p {
+  color: white;
+}
+
+.hotels-gallery {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.hotels img:hover {
+  transform: scale(1.1);
+}
+
+.hotels-gallery {
+  margin-bottom: 0.5rem;
+}
+
+.hotels-gallery img {
+  height: 26rem;
+  object-fit: cover;
+}
+
+.hotels-image-1,
+.hotels-image-2 {
+  flex-basis: 50%;
+}
+
+.hotels-image-3,
+.hotels-image-4,
+.hotels-image-5 {
+  flex: 1 1 33%;
+}
+
 /***********************/
 /* KEYFRAMES ANIMATION */
 /***********************/
