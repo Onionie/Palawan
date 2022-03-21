@@ -238,6 +238,17 @@ i .icon {
 }
 
 /***********************/
+/* RESTAURANT SECTIONS */
+/***********************/
+
+.restaurants-body-box {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.card-image-box img {
+  width: 100%;
+}
+/***********************/
 /* KEYFRAMES ANIMATION */
 /***********************/
 
