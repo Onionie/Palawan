@@ -32,7 +32,8 @@ body {
 }
 
 .section-adventure,
-.section-hotels {
+.section-hotels,
+.section-restaurants {
   padding: 7rem 0 15rem 0;
 }
 
@@ -78,7 +79,8 @@ body {
 
 /* Header Boxes */
 .adventure-header-box,
-.hotels-header-box {
+.hotels-header-box,
+.restaurants-header-box {
   text-align: center;
   line-height: 1.5;
 }
