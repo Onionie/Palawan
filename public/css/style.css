@@ -212,10 +212,14 @@ i .icon {
   flex-basis: 50%;
 }
 
+.hotels-gallery-row-2 {
+  flex-wrap: wrap;
+}
+
 .hotels-image-3,
 .hotels-image-4,
 .hotels-image-5 {
-  flex: 1 1 33%;
+  flex: 1 0 33%;
 }
 
 .hotels-image-6,
@@ -223,7 +227,7 @@ i .icon {
 .hotels-image-8,
 .hotels-image-9,
 .hotels-image-10 {
-  flex: 1 1 20%;
+  flex: 1 1 10%;
 }
 
 .section-hotels p {
