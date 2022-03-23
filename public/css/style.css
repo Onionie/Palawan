@@ -297,7 +297,8 @@ i .icon {
 }
 
 .inquire-image-box {
-  background-color: blue;
+  background-image: url('../images/inquire/beach.png');
+  background-position: center;
 }
 
 /***********************/
