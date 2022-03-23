@@ -293,7 +293,20 @@ i .icon {
 }
 
 .inquire-text-box {
-  background-color: red;
+  background-image: linear-gradient(
+    #fffbd2,
+    #fff5be,
+    #fff7b4,
+    #fcfbbe,
+    #d2fcf9,
+    #d0fbfb,
+    #cef9fd,
+    #ccf8ff,
+    #c1f9fe,
+    #b6fafd,
+    #aafaf9,
+    #a0fbf5
+  );
 }
 
 .inquire-image-box {
