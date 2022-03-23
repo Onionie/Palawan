@@ -51,6 +51,7 @@ body {
   justify-content: center;
 }
 
+.btn,
 .btn:link,
 .btn:visited {
   font-size: 2rem;
@@ -59,6 +60,11 @@ body {
   padding: 1.5rem 4rem;
   display: inline-block;
   border-radius: 0.4rem;
+
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+
   transition: all 0.4s;
 }
 
@@ -76,6 +82,11 @@ body {
 .btn--white {
   background-color: #fff;
   color: #000;
+}
+
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(173, 232, 244, 0.753);
 }
 
 /* Header Boxes */
