@@ -242,7 +242,7 @@ i .icon {
 }
 
 /***********************/
-/* RESTAURANT SECTIONS */
+/* RESTAURANT SECTION  */
 /***********************/
 
 .restaurants-body-box {
@@ -278,6 +278,28 @@ i .icon {
   color: #444;
   text-align: center;
 }
+
+/***********************/
+/*   INQUIRE SECTION   */
+/***********************/
+.inquire-box {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  background-color: yellow;
+  height: 50rem;
+
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.inquire-text-box {
+  background-color: red;
+}
+
+.inquire-image-box {
+  background-color: blue;
+}
+
 /***********************/
 /* KEYFRAMES ANIMATION */
 /***********************/
