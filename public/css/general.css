@@ -34,7 +34,8 @@ body {
 .section-adventure,
 .section-hotels,
 .section-restaurants,
-.section-inquire {
+.section-inquire,
+.section-footer {
   padding: 7rem 0 15rem 0;
 }
 

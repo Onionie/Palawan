@@ -160,7 +160,7 @@ i .icon {
   text-decoration: none;
   border-radius: 0.4rem;
   /* offset-x | offset-y | blur-radius | color */
-  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
   transition: all 0.4s;
 }
 
@@ -293,10 +293,10 @@ i .icon {
 
 .inquire-text-box {
   background-image: linear-gradient(
+    #fffde9,
+    #fffde4,
+    #fffbd7,
     #fffbd2,
-    #fff5be,
-    #fff7b4,
-    #fcfbbe,
     #d2fcf9,
     #d0fbfb,
     #cef9fd,
@@ -338,7 +338,7 @@ i .icon {
   font-family: inherit;
   color: inherit;
   border: none;
-  background-color: #fffbd2;
+  background-color: #fffded;
   border-radius: 5px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
@@ -353,7 +353,7 @@ i .icon {
 }
 
 .inquire-form .btn:hover {
-  background-color: #fffeaa;
+  background-color: #fffbd7;
 }
 
 .inquire-image-box {
@@ -367,6 +367,33 @@ i .icon {
   box-shadow: 0 0 0 0.8rem rgba(173, 232, 244, 0.8);
 }
 
+/***********************/
+/*    FOOTER SECTION   */
+/***********************/
+.footer-box {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr;
+  background-color: red;
+
+  height: 50rem;
+}
+
+.footer-logo-box {
+  background-color: blue;
+}
+
+.footer-contact-box {
+  background-color: yellow;
+}
+.footer-account-box {
+  background-color: green;
+}
+.footer-company-box {
+  background-color: pink;
+}
+.footer-resources-box {
+  background-color: purple;
+}
 /***********************/
 /* KEYFRAMES ANIMATION */
 /***********************/
