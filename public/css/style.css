@@ -386,6 +386,33 @@ i .icon {
   grid-template-columns: 1fr 1fr;
 }
 
+.footer-titles {
+  font-size: 2.4rem;
+  color: #fff;
+  margin-bottom: 1.4rem;
+}
+
+.company-col {
+  height: 30rem;
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  list-style: none;
+  font-size: 1.4rem;
+  color: #bbb;
+}
+
+.footer-nav li {
+  transition: all 0.2s;
+}
+
+.footer-nav li:hover {
+  color: #eee;
+}
+
 .footer-right-box {
   display: grid;
   grid-template-columns: 1fr;
@@ -397,12 +424,6 @@ i .icon {
 
 .right-bot-half {
   background-color: orange;
-}
-
-/* not need? */
-.company-col {
-  height: 30rem;
-  background-color: #81dbec;
 }
 
 .resource-social {
@@ -417,6 +438,7 @@ i .icon {
   background-color: yellow;
 }
 
+/* not need? */
 .footer-logo:link,
 .footer-logo:visited {
   text-decoration: none;
