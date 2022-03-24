@@ -384,6 +384,7 @@ i .icon {
 .footer-left-box {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 4rem 2rem;
 }
 
 .footer-titles {
@@ -426,58 +427,38 @@ i .icon {
   background-color: orange;
 }
 
-.resource-social {
+.resource-social-col {
   display: grid;
   grid-template-columns: 1fr;
-}
-
-.resources-col {
-  background-color: red;
-}
-.social-col {
-  background-color: yellow;
-}
-
-/* not need? */
-.footer-logo:link,
-.footer-logo:visited {
-  text-decoration: none;
-  color: #111;
-  font-size: 3.2rem;
-  font-weight: 500;
-}
-
-.footer-logo-box a {
-  display: block;
-  margin-bottom: 1rem;
+  row-gap: 2rem;
 }
 
 .social-links {
-  list-style: none;
   display: flex;
-  justify-content: space-between;
-  padding: 0;
+  flex-wrap: wrap;
+  row-gap: 1rem;
+  list-style: none;
+  font-size: 2.4rem;
+  color: #ccc;
+}
+
+.social-text {
+  font-size: 1.4rem;
+}
+
+.social-links li {
+  flex: 1 1 40%;
+  margin-right: 1rem;
   transition: all 0.4s;
-  font-size: 3rem;
-  color: black;
 }
 
-.social-links li i:hover {
-  color: #555;
+.social-links li:hover {
+  color: #d0fbfb;
+}
+.social-links li i {
+  margin-right: 1rem;
 }
 
-.footer-contact-box {
-  background-color: yellow;
-}
-.footer-account-box {
-  background-color: green;
-}
-.footer-company-box {
-  background-color: pink;
-}
-.footer-resources-box {
-  background-color: purple;
-}
 /***********************/
 /* KEYFRAMES ANIMATION */
 /***********************/
