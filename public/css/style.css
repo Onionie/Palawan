@@ -370,16 +370,78 @@ i .icon {
 /***********************/
 /*    FOOTER SECTION   */
 /***********************/
+.section-footer {
+  background-color: #002441;
+}
 .footer-box {
   display: grid;
-  grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr;
-  background-color: red;
-
-  height: 50rem;
+  padding: 0 9.2rem;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 1rem;
+  height: 100%;
 }
 
-.footer-logo-box {
-  background-color: blue;
+.footer-left-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.footer-right-box {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.right-top-half {
+  background-color: yellowgreen;
+}
+
+.right-bot-half {
+  background-color: orange;
+}
+
+/* not need? */
+.company-col {
+  height: 30rem;
+  background-color: #81dbec;
+}
+
+.resource-social {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.resources-col {
+  background-color: red;
+}
+.social-col {
+  background-color: yellow;
+}
+
+.footer-logo:link,
+.footer-logo:visited {
+  text-decoration: none;
+  color: #111;
+  font-size: 3.2rem;
+  font-weight: 500;
+}
+
+.footer-logo-box a {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.social-links {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  transition: all 0.4s;
+  font-size: 3rem;
+  color: black;
+}
+
+.social-links li i:hover {
+  color: #555;
 }
 
 .footer-contact-box {
