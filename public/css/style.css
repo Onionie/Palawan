@@ -58,6 +58,24 @@ i .icon {
   transform: translateY(-0.2rem);
 }
 
+/* MOBILE */
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: none;
+}
+
+.icon-mobile-nav {
+  font-size: 3.8rem;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+  color: #fff;
+}
+
+.icon-mobile-nav[name='close-outline'] {
+  display: none;
+}
+
 /* Header-Text */
 .header__text-box {
   position: absolute;
@@ -219,7 +237,7 @@ i .icon {
 .hotels-image-3,
 .hotels-image-4,
 .hotels-image-5 {
-  flex: 1 0 33%;
+  flex: 1 1 32.5%;
 }
 
 .hotels-image-6,
