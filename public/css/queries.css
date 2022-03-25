@@ -1,5 +1,12 @@
 /* 1496px */
 @media (max-width: 93.5em) {
+  .adventure-body-box {
+    grid-template-columns: 1fr;
+  }
+
+  .adventure-image-box {
+    padding: 0;
+  }
   .right-bot-half {
     grid-template-columns: 1fr;
   }
@@ -12,6 +19,28 @@
   }
 }
 
-/* 1440 Adventure Gallery breaks */
+/* 1211 px */
+@media (max-width: 75.69em) {
+  .title:link,
+  .title:visited {
+    font-size: 2.8rem;
+  }
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 1.8rem;
+  }
+  .heading-primary--main {
+    font-size: 4.8rem;
+  }
+  .heading-primary--sub {
+    font-size: 2rem;
+  }
+  .footer-box {
+    column-gap: 2rem;
+  }
+  .social-links li {
+    flex: 1 1 100%;
+  }
+}
 
-/* 1211 Get Social Breaks */
+/* 1140 Hotels Gallery Breaks */

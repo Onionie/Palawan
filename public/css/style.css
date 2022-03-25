@@ -103,7 +103,7 @@ i .icon {
 /***********************/
 
 .adventure-body-box {
-  grid-template-columns: 3fr 2fr;
+  grid-template-columns: 2fr 1fr;
   column-gap: 2rem;
   align-items: center;
 }
@@ -236,7 +236,7 @@ i .icon {
 }
 
 .hotels-description-box p {
-  padding: 0rem 12rem 4rem;
+  padding: 0rem 6rem 4rem;
   text-align: center;
   color: #222;
 }
