@@ -1,0 +1,17 @@
+/* 1496px */
+@media (max-width: 93.5em) {
+  .right-bot-half {
+    grid-template-columns: 1fr;
+  }
+  .phone-number-box {
+    border: none;
+  }
+  .email-box {
+    margin-top: 2rem;
+    padding-left: 0;
+  }
+}
+
+/* 1440 Adventure Gallery breaks */
+
+/* 1211 Get Social Breaks */
