@@ -466,9 +466,9 @@ i .icon {
 }
 
 .footer-right-box {
-  display: flex;
-  flex-direction: column;
-  row-gap: 8rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 2rem;
 }
 
 .right-top-half {

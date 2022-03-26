@@ -61,6 +61,14 @@
     z-index: 1;
   }
 
+  .inquire-text-box {
+    padding: 4.8rem 2.4rem 6.4rem;
+  }
+
+  .inquire-form {
+    column-gap: 2.2rem;
+  }
+
   /* MOBILE NAVIGATION */
   .btn-mobile-nav {
     display: block;
@@ -132,5 +140,44 @@
   .main-nav-link:link,
   .main-nav-link:visited {
     font-size: 3rem;
+  }
+}
+
+/* 870px */
+@media (max-width: 54.38em) {
+  .hotels-image-6,
+  .hotels-image-7,
+  .hotels-image-8 {
+    flex: 1 1 32.5%;
+  }
+
+  .hotels-image-9,
+  .hotels-image-10 {
+    flex: 1 1 40%;
+  }
+
+  .restaurants-body-box {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .inquire-box {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  .inquire-image-box {
+    grid-row: 1/2;
+  }
+
+  .footer-box {
+    grid-template-columns: 1fr;
+    padding: 0 4.2rem;
+  }
+
+  .footer-left-box {
+    grid-template-columns: 0.8fr 1.2fr;
+  }
+
+  .resource-social-col {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5rem;
   }
 }
