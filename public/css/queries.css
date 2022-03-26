@@ -181,3 +181,17 @@
     column-gap: 5rem;
   }
 }
+
+/* 706px */
+@media (max-width: 44.13em) {
+  .footer-box {
+    row-gap: 2.4rem;
+  }
+  .resource-social-col {
+    grid-template-columns: 1fr;
+    column-gap: 5rem;
+  }
+  .social-links li {
+    flex: 1 1 45%;
+  }
+}
