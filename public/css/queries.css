@@ -186,6 +186,7 @@
 @media (max-width: 44.13em) {
   .footer-box {
     row-gap: 2.4rem;
+    padding: 0;
   }
   .resource-social-col {
     grid-template-columns: 1fr;
@@ -193,5 +194,67 @@
   }
   .social-links li {
     flex: 1 1 45%;
+  }
+  .right-top-half h3 {
+    font-size: 4rem;
+  }
+}
+
+/* 590x */
+@media (max-width: 36.88em) {
+  .header-box {
+    padding: 3.2rem 1.8rem;
+  }
+  .heading-primary {
+    margin-bottom: 4rem;
+  }
+  .heading-primary--main {
+    letter-spacing: 2rem;
+    font-size: 4rem;
+  }
+  .heading-primary--sub {
+    letter-spacing: 0.75rem;
+  }
+  .btn,
+  .btn:link,
+  .btn:visited {
+    padding: 1.5rem 2rem;
+  }
+  .subheading {
+    font-size: 1.8rem;
+  }
+  .description-catcher {
+    font-size: 2.2rem;
+  }
+  .header-secondary {
+    font-size: 4rem;
+  }
+  .adventure-image-box {
+    grid-template-columns: 1fr 1fr;
+  }
+  .restaurants-body-box {
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
+  .hotels-description-box p {
+    padding: 0 0 4rem;
+  }
+
+  .hotels-image-3,
+  .hotels-image-4,
+  .hotels-image-5,
+  .hotels-image-6,
+  .hotels-image-7,
+  .hotels-image-8,
+  .hotels-image-9,
+  .hotels-image-10 {
+    flex: 1 1 45%;
+  }
+  .inquire-box {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr;
+  }
+  .inquire-form {
+    grid-template-columns: 1fr;
   }
 }
