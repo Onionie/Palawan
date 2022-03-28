@@ -334,13 +334,14 @@
           <div class="inquire-box">
             <div class="inquire-text-box">
               <h2 class="header-secondary">We know you're interested!</h2>
-              <form class="inquire-form" action="#">
+              <form class="inquire-form" name="inquire" action="#" netlify>
                 <div>
                   <label for="full-name">Full Name</label>
                   <input
                     type="text"
                     id="full-name"
                     placeholder="John Smith"
+                    name="full-name"
                     required
                   />
                 </div>
@@ -350,13 +351,14 @@
                     type="email"
                     id="email"
                     placeholder="me@example.com"
+                    name="email"
                     required
                   />
                 </div>
 
                 <div>
                   <label for="select-where">How did you hear about us?</label>
-                  <select id="select-where" name="select-where" required="">
+                  <select id="select-where" name="select-where" required>
                     <option value="">Please choose one:</option>
                     <option value="friends">Friends and family</option>
                     <option value="youtube">YouTube video</option>
