@@ -113,14 +113,14 @@ i .icon {
 
 .button-animated {
   animation-name: moveInBottom;
-  animation-delay: 0.5s;
+  animation-delay: 3s;
   animation-duration: 2s;
   animation-fill-mode: backwards;
 }
 
 .nav-animated {
   animation-name: moveInRight;
-  animation-delay: 1s;
+  animation-delay: 1.5s;
   animation-duration: 2s;
   animation-fill-mode: backwards;
 }
