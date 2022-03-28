@@ -14,8 +14,8 @@ https://onielg-palawan.netlify.app/
 
 ## Screenshots
 
-<img src = "https://github.com/Onionie/Palawan/blob/main/public/screenshots/1.png">
-<img src = "https://github.com/Onionie/Palawan/blob/main/public/screenshots/2.png">
-<img src = "https://github.com/Onionie/Palawan/blob/main/public/screenshots/3.png">
-<img src = "https://github.com/Onionie/Palawan/blob/main/public/screenshots/4.png">
-<img src = "https://github.com/Onionie/Palawan/blob/main/public/screenshots/5.png">
+<img src = "https://github.com/Onionie/Palawan/blob/main/public/screenshots/1.PNG">
+<img src = "https://github.com/Onionie/Palawan/blob/main/public/screenshots/2.PNG">
+<img src = "https://github.com/Onionie/Palawan/blob/main/public/screenshots/3.PNG">
+<img src = "https://github.com/Onionie/Palawan/blob/main/public/screenshots/4.PNG">
+<img src = "https://github.com/Onionie/Palawan/blob/main/public/screenshots/5.PNG">
