@@ -33,7 +33,7 @@ allLinks.forEach(function (link) {
   });
 });
 
-checkFlexGap();
+// checkFlexGap();
 
 ///////////////////////////////////////////////////////////
 // Fixing flexbox gaap property missing in some Safari versions
